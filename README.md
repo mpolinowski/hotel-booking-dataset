@@ -192,7 +192,7 @@ _Name: country, dtype: int64_
 hotel_bookings_dropped_nan['country'].value_counts().head(15).plot.bar(figsize=(12,4),rot=65)
 ```
 
-![Hotel Booking Demand Dataset](assets/hotel_booking_demand_01.png)
+![Hotel Booking Demand Dataset](https://github.com/mpolinowski/hotel-booking-dataset/raw/master/assets/hotel_booking_demand_01.png)
 
 
 #### Average Daily Rates
@@ -206,7 +206,7 @@ plot = hotel_bookings_dropped_nan.plot.scatter(
 # there are only 2 hotels and all adr's are within 0-500$ with one outlier above 5000$
 ```
 
-![Hotel Booking Demand Dataset](assets/hotel_booking_demand_02.png)
+![Hotel Booking Demand Dataset](https://github.com/mpolinowski/hotel-booking-dataset/raw/master/assets/hotel_booking_demand_02.png)
 
 ```python
 # find outlier
@@ -258,7 +258,7 @@ plot = hotel_bookings_dropped_nan.plot.hist(
 # the outlier squeezes the first histogram and makes it hard to compare them
 ```
 
-![Hotel Booking Demand Dataset](assets/hotel_booking_demand_03.png)
+![Hotel Booking Demand Dataset](https://github.com/mpolinowski/hotel-booking-dataset/raw/master/assets/hotel_booking_demand_03.png)
 
 ```python
 # let's find the outlier iloc and drop the row
@@ -279,7 +279,7 @@ plot = hotel_bookings_dropped_outlier.plot.hist(
 # nice :)
 ```
 
-![Hotel Booking Demand Dataset](assets/hotel_booking_demand_04.png)
+![Hotel Booking Demand Dataset](https://github.com/mpolinowski/hotel-booking-dataset/raw/master/assets/hotel_booking_demand_04.png)
 
 ```python
 # calculate the average daily rate `adr` for a guest staying at each hotel
@@ -463,7 +463,7 @@ plot = return_customer_df[
 ].plot.bar(figsize=(12,8), rot=0)
 ```
 
-![Hotel Booking Demand Dataset](assets/hotel_booking_demand_05.png)
+![Hotel Booking Demand Dataset](https://github.com/mpolinowski/hotel-booking-dataset/raw/master/assets/hotel_booking_demand_05.png)
 
 ```python
 arrival_date_year 	2016
@@ -567,7 +567,7 @@ _dtype: int64_
 bookings_by_weekday_city_hotel.plot.bar(figsize=(12,8), rot=0)
 ```
 
-![Hotel Booking Demand Dataset](assets/hotel_booking_demand_06.png)
+![Hotel Booking Demand Dataset](https://github.com/mpolinowski/hotel-booking-dataset/raw/master/assets/hotel_booking_demand_06.png)
 
 ```python
 resort_hotel_bookings['datetime'] = (
@@ -599,7 +599,7 @@ _dtype: int64_
 bookings_by_weekday_resort_hotel.plot.bar(figsize=(12,8), rot=0)
 ```
 
-![Hotel Booking Demand Dataset](assets/hotel_booking_demand_07.png)
+![Hotel Booking Demand Dataset](https://github.com/mpolinowski/hotel-booking-dataset/raw/master/assets/hotel_booking_demand_07.png)
 
 
 #### Bookings within a Date Range
