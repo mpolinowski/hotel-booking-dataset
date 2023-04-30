@@ -20,7 +20,7 @@
 
 
 
-> see [Kaggle](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand)
+> see [Hotel booking demand datasets](https://www.sciencedirect.com/science/article/pii/S2352340918315191), [Kaggle](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand)
 
 ```python
 import numpy as np
